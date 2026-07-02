@@ -1,5 +1,5 @@
 {
-  "id": "astral-journey",
+  "id": "astralJourney",
   "name": "Astral Journey",
   "version": "1.1.0",
   "author": "kmf",
@@ -36,6 +36,8 @@
           "surface": "#14172a",
           "surfaceVariant": "#1c2038",
           "background": "#0d0f1e",
+          "surfaceContainerLowest": "#0a0b16",
+          "surfaceContainerLow": "#101324",
           "surfaceContainer": "#14172a",
           "surfaceContainerHigh": "#1c2038",
           "surfaceContainerHighest": "#2a2f4d"
@@ -48,6 +50,8 @@
           "surface": "#f6f0dc",
           "surfaceVariant": "#efe8cf",
           "background": "#fdf9ec",
+          "surfaceContainerLowest": "#fffef8",
+          "surfaceContainerLow": "#fefbf2",
           "surfaceContainer": "#f6f0dc",
           "surfaceContainerHigh": "#efe8cf",
           "surfaceContainerHighest": "#e2d8ba"
