@@ -1,0 +1,99 @@
+# astral-supernova — yazi theme
+# https://github.com/kmf/astral-journey
+#
+# Install:
+#   cp astral-supernova.toml ~/.config/yazi/theme.toml
+
+[manager]
+cwd = { fg = "#2f5fc7" }
+
+hovered   = { fg = "#fdf9ec", bg = "#c9820f", bold = true }
+preview_hovered = { underline = true }
+
+find_keyword  = { fg = "#fdf9ec", bg = "#c9820f", bold = true }
+find_position = { fg = "#a34fa8", bg = "reset", italic = true }
+
+marker_selected = { fg = "#1f8a5c", bg = "#1f8a5c" }
+marker_copied   = { fg = "#c9820f", bg = "#c9820f" }
+marker_cut      = { fg = "#d83a4a", bg = "#d83a4a" }
+
+tab_active   = { fg = "#fdf9ec", bg = "#c9820f", bold = true }
+tab_inactive = { fg = "#6b6a8a", bg = "#f6f0dc" }
+
+border_symbol = "│"
+border_style  = { fg = "#e2d8ba" }
+
+count_selected = { fg = "#fdf9ec", bg = "#1f8a5c" }
+count_copied   = { fg = "#fdf9ec", bg = "#c9820f" }
+count_cut      = { fg = "#fdf9ec", bg = "#d83a4a" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#f6f0dc", bg = "#f6f0dc" }
+
+mode_normal = { fg = "#fdf9ec", bg = "#c9820f", bold = true }
+mode_select = { fg = "#fdf9ec", bg = "#006699", bold = true }
+mode_unset  = { fg = "#fdf9ec", bg = "#7b4fc0", bold = true }
+
+progress_label  = { fg = "#292140", bold = true }
+progress_normal = { fg = "#e2d8ba", bg = "#f6f0dc" }
+progress_error  = { fg = "#d83a4a", bg = "#f6f0dc" }
+
+permissions_t = { fg = "#1f8a5c" }
+permissions_r = { fg = "#c9820f" }
+permissions_w = { fg = "#d83a4a" }
+permissions_x = { fg = "#006699" }
+permissions_s = { fg = "#6b6a8a" }
+
+[input]
+border   = { fg = "#c9820f" }
+title    = { fg = "#c9820f" }
+value    = { fg = "#292140" }
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#2f5fc7" }
+active   = { fg = "#c9820f", bold = true }
+inactive = { fg = "#292140" }
+
+[tasks]
+border  = { fg = "#7b4fc0" }
+title   = { fg = "#7b4fc0" }
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#f6f0dc" }
+cand            = { fg = "#006699" }
+rest            = { fg = "#6b6a8a" }
+desc            = { fg = "#a34fa8" }
+separator       = "  "
+separator_style = { fg = "#e2d8ba" }
+
+[help]
+on      = { fg = "#c9820f" }
+run     = { fg = "#a34fa8" }
+desc    = { fg = "#6b6a8a" }
+hovered = { bg = "#efe8cf", bold = true }
+footer  = { fg = "#6b6a8a", bg = "#f6f0dc" }
+
+[filetype]
+rules = [
+  { mime = "image/*", fg = "#006699" },
+  { mime = "video/*", fg = "#7b4fc0" },
+  { mime = "audio/*", fg = "#d9660a" },
+  { mime = "application/zip",   fg = "#a34fa8" },
+  { mime = "application/gzip",  fg = "#a34fa8" },
+  { mime = "application/x-tar", fg = "#a34fa8" },
+  { name = "*.md",   fg = "#c9820f" },
+  { name = "*.yml",  fg = "#2f5fc7" },
+  { name = "*.yaml", fg = "#2f5fc7" },
+  { name = "*.toml", fg = "#2f5fc7" },
+  { name = "*.json", fg = "#2f5fc7" },
+  { name = "*.nix",  fg = "#1f8a5c" },
+  { name = "*.go",   fg = "#006699" },
+  { name = "*.rs",   fg = "#d9660a" },
+  { name = "*.py",   fg = "#c9820f" },
+  { name = "*.sh",   fg = "#1f8a5c" },
+  { name = "*.lua",  fg = "#7b4fc0" },
+]

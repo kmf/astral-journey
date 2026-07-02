@@ -1,0 +1,42 @@
+{
+  "name": "astral-journey",
+  "displayName": "Astral Journey",
+  "description": "Warm star-glow falling into deep space \u2014 dark and light modes",
+  "version": "0.1.0",
+  "publisher": "obsidian",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Astral Blackhole",
+        "uiTheme": "vs-dark",
+        "path": "./themes/astral-blackhole-color-theme.json"
+      },
+      {
+        "label": "Astral Supernova",
+        "uiTheme": "vs",
+        "path": "./themes/astral-supernova-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmf/astral-journey"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "astral",
+    "space",
+    "supernova",
+    "blackhole"
+  ]
+}

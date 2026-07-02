@@ -1,0 +1,44 @@
+// astral-blackhole color scheme for cosmic-term
+// https://github.com/kmf/astral-journey
+//
+// Install:
+//   1. Open cosmic-term
+//   2. View > Color schemes...
+//   3. Click Import, select this file
+//   4. View > Color schemes > astral-blackhole
+
+(
+    name: "astral-blackhole",
+    foreground: Some("#ebe8d2"),
+    background: Some("#0d0f1e"),
+    cursor: Some("#ff9933"),
+    bright_foreground: Some("#fdfbe4"),
+    dim_foreground: Some("#767ba6"),
+
+    black: Some("#1c2038"),
+    red: Some("#ff6e6e"),
+    green: Some("#7ed4a3"),
+    yellow: Some("#ffcc66"),
+    blue: Some("#6a97ea"),
+    magenta: Some("#cc99cc"),
+    cyan: Some("#38a8d0"),
+    white: Some("#ebe8d2"),
+
+    bright_black: Some("#3f4670"),
+    bright_red: Some("#ff8a80"),
+    bright_green: Some("#98e0ba"),
+    bright_yellow: Some("#ffff99"),
+    bright_blue: Some("#99ccff"),
+    bright_magenta: Some("#d9a9e0"),
+    bright_cyan: Some("#5cc0e0"),
+    bright_white: Some("#fdfbe4"),
+
+    dim_black: Some("#0d0f1e"),
+    dim_red: Some("#b65256"),
+    dim_green: Some("#5c997b"),
+    dim_yellow: Some("#b69350"),
+    dim_blue: Some("#4e6ead"),
+    dim_magenta: Some("#937098"),
+    dim_cyan: Some("#2b7a9b"),
+    dim_white: Some("#767ba6"),
+)

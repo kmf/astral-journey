@@ -1,0 +1,31 @@
+# astral-blackhole — lazygit theme
+# https://github.com/kmf/astral-journey
+#
+# Install:
+#   Merge into ~/.config/lazygit/config.yml
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#ffcc66"
+      - bold
+    inactiveBorderColor:
+      - "#2a2f4d"
+    searchingActiveBorderColor:
+      - "#ff9933"
+      - bold
+    optionsTextColor:
+      - "#6a97ea"
+    selectedLineBgColor:
+      - "#1c2038"
+    selectedRangeBgColor:
+      - "#1c2038"
+    cherryPickedCommitBgColor:
+      - "#38a8d0"
+    cherryPickedCommitFgColor:
+      - "#0d0f1e"
+    unstagedChangesColor:
+      - "#ff6e6e"
+    defaultFgColor:
+      - "#ebe8d2"
+  nerdFontsVersion: "3"

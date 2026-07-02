@@ -1,0 +1,26 @@
+# astral-blackhole — astral journey
+# https://github.com/kmf/astral-journey
+
+background = 0d0f1e
+foreground = ebe8d2
+cursor-color = ff9933
+cursor-text = 0d0f1e
+selection-background = 664466
+selection-foreground = fdfbe4
+
+palette = 0=#1c2038
+palette = 1=#ff6e6e
+palette = 2=#7ed4a3
+palette = 3=#ffcc66
+palette = 4=#6a97ea
+palette = 5=#cc99cc
+palette = 6=#38a8d0
+palette = 7=#ebe8d2
+palette = 8=#3f4670
+palette = 9=#ff8a80
+palette = 10=#98e0ba
+palette = 11=#ffff99
+palette = 12=#99ccff
+palette = 13=#d9a9e0
+palette = 14=#5cc0e0
+palette = 15=#fdfbe4

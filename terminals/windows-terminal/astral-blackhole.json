@@ -1,0 +1,23 @@
+{
+  "name": "astral-blackhole",
+  "background": "#0D0F1E",
+  "foreground": "#EBE8D2",
+  "cursorColor": "#FF9933",
+  "selectionBackground": "#664466",
+  "black": "#1C2038",
+  "red": "#FF6E6E",
+  "green": "#7ED4A3",
+  "yellow": "#FFCC66",
+  "blue": "#6A97EA",
+  "purple": "#CC99CC",
+  "cyan": "#38A8D0",
+  "white": "#EBE8D2",
+  "brightBlack": "#3F4670",
+  "brightRed": "#FF8A80",
+  "brightGreen": "#98E0BA",
+  "brightYellow": "#FFFF99",
+  "brightBlue": "#99CCFF",
+  "brightPurple": "#D9A9E0",
+  "brightCyan": "#5CC0E0",
+  "brightWhite": "#FDFBE4"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment_astral": "astral-journey theme hints for Claude Code · https://github.com/kmf/astral-journey — Claude Code's built-in theme list is limited, so this file picks the closest built-in (dark / light) and ensures truecolor rendering. When Claude Code ships user-configurable color themes (tracking issue #25366) this file will be extended with full astral-journey palette bindings.",
+
+  "theme": "dark",
+
+  "env": {
+    "COLORTERM": "truecolor",
+    "ASTRAL_VARIANT": "blackhole"
+  },
+
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/astral-statusline.sh",
+    "padding": 0
+  }
+}

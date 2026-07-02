@@ -1,0 +1,203 @@
+/*
+ * astral-journey.css — warm star-glow falling into deep space, for Obsidian
+ * https://github.com/kmf/astral-journey
+ *
+ * Install:
+ *   Copy this file to your vault:
+ *     <vault>/.obsidian/themes/Astral Journey/theme.css
+ *
+ *   Then: Settings > Appearance > Themes > Manage... > pick "Astral Journey"
+ *
+ * Follows the system light/dark mode — sets astral-blackhole when dark, astral-supernova when light.
+ */
+
+/* ------------------------------------------------------------------
+   astral-blackhole — dark theme
+   ------------------------------------------------------------------ */
+.theme-dark {
+  /* Background */
+  --background-primary:         #0d0f1e;
+  --background-primary-alt:     #14172a;
+  --background-secondary:       #1c2038;
+  --background-secondary-alt:   #2a2f4d;
+  --background-modifier-border: #2a2f4d;
+  --background-modifier-border-hover:  #3f4670;
+  --background-modifier-border-focus:  #ffcc66;
+  --background-modifier-hover:  #1c2038;
+  --background-modifier-active-hover: #2a2f4d;
+
+  /* Text */
+  --text-normal:    #ebe8d2;
+  --text-muted:     #767ba6;
+  --text-faint:     #3f4670;
+  --text-on-accent: #0d0f1e;
+  --text-accent:    #ffcc66;
+  --text-accent-hover: #ffff99;
+  --text-error:     #ff6e6e;
+  --text-warning:   #ff9933;
+  --text-success:   #7ed4a3;
+  --text-selection: #1c2038;
+  --text-highlight-bg:      #ffcc66;
+  --text-highlight-fg:      #0d0f1e;
+
+  /* Interactive */
+  --interactive-normal:      #1c2038;
+  --interactive-hover:       #2a2f4d;
+  --interactive-accent:      #ffcc66;
+  --interactive-accent-hover:#ffff99;
+
+  /* Headings */
+  --h1-color: #ffcc66;
+  --h2-color: #ff9933;
+  --h3-color: #6a97ea;
+  --h4-color: #38a8d0;
+  --h5-color: #b78ae0;
+  --h6-color: #767ba6;
+
+  /* Code / inline */
+  --code-background: #1c2038;
+  --code-normal:     #ebe8d2;
+  --code-comment:    #767ba6;
+  --code-function:   #6a97ea;
+  --code-keyword:    #ff6e6e;
+  --code-operator:   #ebe8d2;
+  --code-property:   #ffcc66;
+  --code-punctuation:#ebe8d2;
+  --code-string:     #7ed4a3;
+  --code-tag:        #ff6e6e;
+  --code-value:      #38a8d0;
+  --code-important:  #ff9933;
+
+  /* Links */
+  --link-color:           #6a97ea;
+  --link-color-hover:     #99ccff;
+  --link-unresolved-color:#ff6e6e;
+  --link-external-color:  #b78ae0;
+
+  /* Tags */
+  --tag-color:      #38a8d0;
+  --tag-background: #1c2038;
+
+  /* Callouts */
+  --callout-note:      106, 151, 234;   /* azure  */
+  --callout-info:      56, 168, 208;    /* teal   */
+  --callout-success:   126, 212, 163;   /* aurora */
+  --callout-warning:   255, 153, 51;    /* orange */
+  --callout-error:     255, 110, 110;   /* coral  */
+  --callout-question:  183, 138, 224;   /* violet */
+  --callout-quote:     118, 123, 166;   /* muted  */
+  --callout-important: 204, 153, 204;   /* lilac  */
+  --callout-tip:       255, 204, 102;   /* amber  */
+
+  /* Graph view */
+  --graph-line:        #2a2f4d;
+  --graph-node:        #ebe8d2;
+  --graph-node-focused:#ffcc66;
+  --graph-node-tag:    #38a8d0;
+  --graph-node-unresolved: #ff6e6e;
+  --graph-text:        #ebe8d2;
+
+  /* Tables */
+  --table-border-color:     #2a2f4d;
+  --table-header-background:#1c2038;
+  --table-row-alt-background:#14172a;
+}
+
+/* ------------------------------------------------------------------
+   astral-supernova — light theme
+   ------------------------------------------------------------------ */
+.theme-light {
+  --background-primary:         #fdf9ec;
+  --background-primary-alt:     #f6f0dc;
+  --background-secondary:       #efe8cf;
+  --background-secondary-alt:   #e2d8ba;
+  --background-modifier-border: #e2d8ba;
+  --background-modifier-border-hover:  #9a97b0;
+  --background-modifier-border-focus:  #c9820f;
+  --background-modifier-hover:  #efe8cf;
+  --background-modifier-active-hover: #e2d8ba;
+
+  --text-normal:    #292140;
+  --text-muted:     #6b6a8a;
+  --text-faint:     #9a97b0;
+  --text-on-accent: #fdf9ec;
+  --text-accent:    #c9820f;
+  --text-accent-hover: #b07d00;
+  --text-error:     #d83a4a;
+  --text-warning:   #d9660a;
+  --text-success:   #1f8a5c;
+  --text-selection: #efe8cf;
+  --text-highlight-bg:      #c9820f;
+  --text-highlight-fg:      #fdf9ec;
+
+  --interactive-normal:      #efe8cf;
+  --interactive-hover:       #e2d8ba;
+  --interactive-accent:      #c9820f;
+  --interactive-accent-hover:#b07d00;
+
+  --h1-color: #c9820f;
+  --h2-color: #d9660a;
+  --h3-color: #2f5fc7;
+  --h4-color: #006699;
+  --h5-color: #7b4fc0;
+  --h6-color: #6b6a8a;
+
+  --code-background: #efe8cf;
+  --code-normal:     #292140;
+  --code-comment:    #6b6a8a;
+  --code-function:   #2f5fc7;
+  --code-keyword:    #d83a4a;
+  --code-operator:   #292140;
+  --code-property:   #c9820f;
+  --code-punctuation:#292140;
+  --code-string:     #1f8a5c;
+  --code-tag:        #d83a4a;
+  --code-value:      #006699;
+  --code-important:  #d9660a;
+
+  --link-color:           #2f5fc7;
+  --link-color-hover:     #2551ad;
+  --link-unresolved-color:#d83a4a;
+  --link-external-color:  #7b4fc0;
+
+  --tag-color:      #006699;
+  --tag-background: #efe8cf;
+
+  --callout-note:      47, 95, 199;
+  --callout-info:      0, 102, 153;
+  --callout-success:   31, 138, 92;
+  --callout-warning:   217, 102, 10;
+  --callout-error:     216, 58, 74;
+  --callout-question:  123, 79, 192;
+  --callout-quote:     107, 106, 138;
+  --callout-important: 163, 79, 168;
+  --callout-tip:       201, 130, 15;
+
+  --graph-line:        #e2d8ba;
+  --graph-node:        #292140;
+  --graph-node-focused:#c9820f;
+  --graph-node-tag:    #006699;
+  --graph-node-unresolved: #d83a4a;
+  --graph-text:        #292140;
+
+  --table-border-color:     #e2d8ba;
+  --table-header-background:#efe8cf;
+  --table-row-alt-background:#f6f0dc;
+}
+
+/* ------------------------------------------------------------------
+   Optional refinements — monospace block, quote border, etc.
+   ------------------------------------------------------------------ */
+.theme-dark blockquote { border-left: 3px solid var(--text-accent); }
+.theme-light blockquote { border-left: 3px solid var(--text-accent); }
+
+.theme-dark .cm-s-obsidian .cm-hmd-internal-link { color: var(--link-color); }
+.theme-light .cm-s-obsidian .cm-hmd-internal-link { color: var(--link-color); }
+
+/* subtle title-bar accent */
+.theme-dark .workspace-tab-header.is-active {
+  border-top: 2px solid var(--text-accent);
+}
+.theme-light .workspace-tab-header.is-active {
+  border-top: 2px solid var(--text-accent);
+}

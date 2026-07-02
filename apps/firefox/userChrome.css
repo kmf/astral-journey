@@ -1,0 +1,85 @@
+/*
+ * astral-journey — Firefox userChrome.css companion
+ * https://github.com/kmf/astral-journey
+ *
+ * Optional advanced styling for users who want more control than
+ * the WebExtension theme provides (tab shapes, density, menu styling).
+ *
+ * Install:
+ *   1. about:config → toolkit.legacyUserProfileCustomizations.stylesheets = true
+ *   2. Find your profile folder: about:support → Profile Folder
+ *   3. Create chrome/ inside, then drop this file as chrome/userChrome.css
+ *   4. Restart Firefox
+ *
+ * Variants toggle automatically via prefers-color-scheme: dark.
+ */
+
+/* astral-blackhole (dark) */
+:root {
+  --astral-bg:        #0d0f1e;
+  --astral-bg-soft:   #14172a;
+  --astral-bg-hi:     #1c2038;
+  --astral-border:    #2a2f4d;
+  --astral-fg:        #ebe8d2;
+  --astral-fg-alt:    #fdfbe4;
+  --astral-fg-muted:  #767ba6;
+  --astral-yellow:    #ffcc66;
+  --astral-blue:      #6a97ea;
+  --astral-red:       #ff6e6e;
+  --astral-teal:      #38a8d0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --astral-bg:        #fdf9ec;
+    --astral-bg-soft:   #f6f0dc;
+    --astral-bg-hi:     #efe8cf;
+    --astral-border:    #e2d8ba;
+    --astral-fg:        #292140;
+    --astral-fg-alt:    #1c1730;
+    --astral-fg-muted:  #6b6a8a;
+    --astral-yellow:    #c9820f;
+    --astral-blue:      #2f5fc7;
+    --astral-red:       #d83a4a;
+    --astral-teal:      #006699;
+  }
+}
+
+/* Tighten tabs and give active tab an astral accent underline */
+.tab-background[selected="true"] {
+  background: var(--astral-bg-hi) !important;
+  box-shadow: inset 0 -2px 0 0 var(--astral-yellow) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+/* URL bar focus ring */
+#urlbar[focused="true"] {
+  box-shadow: 0 0 0 1px var(--astral-yellow) !important;
+  border-color: var(--astral-yellow) !important;
+}
+
+/* Find bar */
+.findbar-container {
+  background: var(--astral-bg-soft) !important;
+  border-top: 1px solid var(--astral-border) !important;
+}
+
+/* Context menu accents */
+menu[_moz-menuactive="true"],
+menuitem[_moz-menuactive="true"] {
+  background: var(--astral-bg-hi) !important;
+  color: var(--astral-fg-alt) !important;
+}
+
+/* Scrollbar — subtle astral tone */
+scrollbar {
+  background-color: var(--astral-bg) !important;
+}
+
+scrollbar thumb {
+  background-color: var(--astral-border) !important;
+}
+
+scrollbar thumb:hover {
+  background-color: var(--astral-fg-muted) !important;
+}

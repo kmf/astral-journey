@@ -1,0 +1,74 @@
+# astral-supernova — k9s skin
+# https://github.com/kmf/astral-journey
+
+k9s:
+  body:
+    fgColor: "#292140"
+    bgColor: "#fdf9ec"
+    logoColor: "#c9820f"
+  prompt:
+    fgColor: "#292140"
+    bgColor: "#fdf9ec"
+    suggestColor: "#2f5fc7"
+  info:
+    fgColor: "#6b6a8a"
+    sectionColor: "#c9820f"
+  dialog:
+    fgColor: "#292140"
+    bgColor: "#f6f0dc"
+    buttonFgColor: "#fdf9ec"
+    buttonBgColor: "#c9820f"
+    buttonFocusFgColor: "#fdf9ec"
+    buttonFocusBgColor: "#b07d00"
+    labelFgColor: "#d9660a"
+    fieldFgColor: "#292140"
+  frame:
+    border:
+      fgColor: "#e2d8ba"
+      focusColor: "#c9820f"
+    menu:
+      fgColor: "#292140"
+      keyColor: "#c9820f"
+      numKeyColor: "#7b4fc0"
+    crumbs:
+      fgColor: "#fdf9ec"
+      bgColor: "#c9820f"
+      activeColor: "#d9660a"
+    status:
+      newColor: "#2f5fc7"
+      modifyColor: "#c9820f"
+      addColor: "#1f8a5c"
+      pendingColor: "#d9660a"
+      errorColor: "#d83a4a"
+      highlightColor: "#006699"
+      killColor: "#a34fa8"
+      completedColor: "#6b6a8a"
+    title:
+      fgColor: "#c9820f"
+      bgColor: "#fdf9ec"
+      highlightColor: "#2f5fc7"
+      counterColor: "#7b4fc0"
+      filterColor: "#006699"
+  views:
+    table:
+      fgColor: "#292140"
+      bgColor: "#fdf9ec"
+      cursorFgColor: "#fdf9ec"
+      cursorBgColor: "#c9820f"
+      markColor: "#006699"
+      header:
+        fgColor: "#c9820f"
+        bgColor: "#fdf9ec"
+        sorterColor: "#2f5fc7"
+    yaml:
+      keyColor: "#2f5fc7"
+      colonColor: "#6b6a8a"
+      valueColor: "#1f8a5c"
+    logs:
+      fgColor: "#292140"
+      bgColor: "#fdf9ec"
+      indicator:
+        fgColor: "#c9820f"
+        bgColor: "#fdf9ec"
+        toggleOnColor: "#1f8a5c"
+        toggleOffColor: "#6b6a8a"

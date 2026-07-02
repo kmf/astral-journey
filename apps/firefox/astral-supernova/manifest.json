@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+  "name": "astral-supernova",
+  "version": "1.0.0",
+  "description": "warm star-glow falling into deep space — light. https://github.com/kmf/astral-journey",
+  "author": "kmf",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "astral-supernova@astral-journey.theme"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame":                       "#fdf9ec",
+      "frame_inactive":              "#fdf9ec",
+
+      "toolbar":                     "#f6f0dc",
+      "toolbar_field":               "#fdf9ec",
+      "toolbar_field_focus":         "#f6f0dc",
+      "toolbar_field_border":        "#e2d8ba",
+      "toolbar_field_border_focus":  "#c9820f",
+      "toolbar_field_text":          "#292140",
+      "toolbar_field_text_focus":    "#292140",
+      "toolbar_field_highlight":     "#efe8cf",
+      "toolbar_field_highlight_text":"#292140",
+      "toolbar_text":                "#292140",
+      "toolbar_bottom_separator":    "#e2d8ba",
+      "toolbar_top_separator":       "#e2d8ba",
+      "toolbar_vertical_separator":  "#e2d8ba",
+
+      "tab_text":                    "#292140",
+      "tab_background_text":         "#6b6a8a",
+      "tab_background_separator":    "#e2d8ba",
+      "tab_line":                    "#c9820f",
+      "tab_loading":                 "#c9820f",
+      "tab_selected":                "#efe8cf",
+
+      "bookmark_text":               "#292140",
+      "button_background_hover":     "#efe8cf",
+      "button_background_active":    "#e2d8ba",
+
+      "icons":                       "#292140",
+      "icons_attention":             "#c9820f",
+
+      "ntp_background":              "#fdf9ec",
+      "ntp_card_background":         "#f6f0dc",
+      "ntp_text":                    "#292140",
+
+      "popup":                       "#f6f0dc",
+      "popup_border":                "#e2d8ba",
+      "popup_highlight":             "#efe8cf",
+      "popup_highlight_text":        "#292140",
+      "popup_text":                  "#292140",
+
+      "sidebar":                     "#fdf9ec",
+      "sidebar_border":              "#e2d8ba",
+      "sidebar_highlight":           "#c9820f",
+      "sidebar_highlight_text":      "#fdf9ec",
+      "sidebar_text":                "#292140",
+
+      "address_bar_box":             "#fdf9ec",
+      "address_bar_box_hover":       "#f6f0dc",
+      "address_bar_box_focus":       "#f6f0dc",
+      "address_bar_box_text":        "#292140"
+    },
+    "properties": {
+      "color_scheme":          "light",
+      "content_color_scheme":  "system"
+    }
+  }
+}

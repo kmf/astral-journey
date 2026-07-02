@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+  "name": "astral-blackhole",
+  "version": "1.0.0",
+  "description": "warm star-glow falling into deep space — dark. https://github.com/kmf/astral-journey",
+  "author": "kmf",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "astral-blackhole@astral-journey.theme"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame":                       "#0d0f1e",
+      "frame_inactive":              "#0d0f1e",
+
+      "toolbar":                     "#14172a",
+      "toolbar_field":               "#0d0f1e",
+      "toolbar_field_focus":         "#14172a",
+      "toolbar_field_border":        "#2a2f4d",
+      "toolbar_field_border_focus":  "#ffcc66",
+      "toolbar_field_text":          "#ebe8d2",
+      "toolbar_field_text_focus":    "#ebe8d2",
+      "toolbar_field_highlight":     "#1c2038",
+      "toolbar_field_highlight_text":"#ebe8d2",
+      "toolbar_text":                "#ebe8d2",
+      "toolbar_bottom_separator":    "#2a2f4d",
+      "toolbar_top_separator":       "#2a2f4d",
+      "toolbar_vertical_separator":  "#2a2f4d",
+
+      "tab_text":                    "#ebe8d2",
+      "tab_background_text":         "#767ba6",
+      "tab_background_separator":    "#2a2f4d",
+      "tab_line":                    "#ffcc66",
+      "tab_loading":                 "#ffcc66",
+      "tab_selected":                "#1c2038",
+
+      "bookmark_text":               "#ebe8d2",
+      "button_background_hover":     "#1c2038",
+      "button_background_active":    "#2a2f4d",
+
+      "icons":                       "#ebe8d2",
+      "icons_attention":             "#ffcc66",
+
+      "ntp_background":              "#0d0f1e",
+      "ntp_card_background":         "#14172a",
+      "ntp_text":                    "#ebe8d2",
+
+      "popup":                       "#14172a",
+      "popup_border":                "#2a2f4d",
+      "popup_highlight":             "#1c2038",
+      "popup_highlight_text":        "#ebe8d2",
+      "popup_text":                  "#ebe8d2",
+
+      "sidebar":                     "#0d0f1e",
+      "sidebar_border":              "#2a2f4d",
+      "sidebar_highlight":           "#ffcc66",
+      "sidebar_highlight_text":      "#0d0f1e",
+      "sidebar_text":                "#ebe8d2",
+
+      "address_bar_box":             "#0d0f1e",
+      "address_bar_box_hover":       "#14172a",
+      "address_bar_box_focus":       "#14172a",
+      "address_bar_box_text":        "#ebe8d2"
+    },
+    "properties": {
+      "color_scheme":          "dark",
+      "content_color_scheme":  "system"
+    }
+  }
+}

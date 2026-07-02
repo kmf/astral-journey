@@ -1,0 +1,97 @@
+# astral-blackhole — btop theme
+# https://github.com/kmf/astral-journey
+#
+# Install:
+#   cp astral-blackhole.theme ~/.config/btop/themes/
+#   Then in ~/.config/btop/btop.conf:
+#     color_theme = "astral-blackhole"
+
+# Main background
+theme[main_bg]="#0d0f1e"
+
+# Main text color
+theme[main_fg]="#ebe8d2"
+
+# Title color for boxes
+theme[title]="#ffcc66"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#ffcc66"
+
+# Background color of selected items
+theme[selected_bg]="#1c2038"
+
+# Foreground color of selected items
+theme[selected_fg]="#ffcc66"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#767ba6"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#ebe8d2"
+
+# Background color of the percentage meters
+theme[meter_bg]="#14172a"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#b78ae0"
+
+# Cpu box outline color
+theme[cpu_box]="#2a2f4d"
+
+# Memory/disks box outline color
+theme[mem_box]="#2a2f4d"
+
+# Net up/down box outline color
+theme[net_box]="#2a2f4d"
+
+# Processes box outline color
+theme[proc_box]="#2a2f4d"
+
+# Box divider line and small boxes line color
+theme[div_line]="#2a2f4d"
+
+# Temperature graph color gradient (low -> med -> high)
+theme[temp_start]="#7ed4a3"
+theme[temp_mid]="#ffcc66"
+theme[temp_end]="#ff6e6e"
+
+# CPU graph colors
+theme[cpu_start]="#38a8d0"
+theme[cpu_mid]="#6a97ea"
+theme[cpu_end]="#b78ae0"
+
+# Mem/Disk free meter
+theme[free_start]="#7ed4a3"
+theme[free_mid]=""
+theme[free_end]=""
+
+# Mem/Disk cached meter
+theme[cached_start]="#6a97ea"
+theme[cached_mid]=""
+theme[cached_end]=""
+
+# Mem/Disk available meter
+theme[available_start]="#ffcc66"
+theme[available_mid]=""
+theme[available_end]=""
+
+# Mem/Disk used meter
+theme[used_start]="#ff9933"
+theme[used_mid]=""
+theme[used_end]="#ff6e6e"
+
+# Download graph colors
+theme[download_start]="#38a8d0"
+theme[download_mid]="#6a97ea"
+theme[download_end]="#b78ae0"
+
+# Upload graph colors
+theme[upload_start]="#7ed4a3"
+theme[upload_mid]="#ffcc66"
+theme[upload_end]="#ff9933"
+
+# Process box color gradient for threads, memory and cpu usage
+theme[process_start]="#7ed4a3"
+theme[process_mid]="#ffcc66"
+theme[process_end]="#ff6e6e"

@@ -1,0 +1,29 @@
+// astral-supernova color scheme for cosmic-term
+// https://github.com/kmf/astral-journey
+
+(
+    name: "astral-supernova",
+    foreground: Some("#292140"),
+    background: Some("#fdf9ec"),
+    cursor: Some("#d9660a"),
+    bright_foreground: Some("#1c1730"),
+    dim_foreground: Some("#6b6a8a"),
+
+    black: Some("#292140"),
+    red: Some("#d83a4a"),
+    green: Some("#1f8a5c"),
+    yellow: Some("#b07d00"),
+    blue: Some("#2f5fc7"),
+    magenta: Some("#a34fa8"),
+    cyan: Some("#006699"),
+    white: Some("#f6f0dc"),
+
+    bright_black: Some("#6b6a8a"),
+    bright_red: Some("#c22f3e"),
+    bright_green: Some("#187a4f"),
+    bright_yellow: Some("#9c6e00"),
+    bright_blue: Some("#2551ad"),
+    bright_magenta: Some("#8f4494"),
+    bright_cyan: Some("#005982"),
+    bright_white: Some("#1c1730"),
+)

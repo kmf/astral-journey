@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- astral-supernova for bat · https://github.com/kmf/astral-journey -->
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key><string>astral-supernova</string>
+  <key>uuid</key><string>9f5c7e1a-8b12-4a2f-9f7d-astralsupernova01</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key><string>#fdf9ec</string>
+        <key>foreground</key><string>#292140</string>
+        <key>caret</key><string>#c9820f</string>
+        <key>lineHighlight</key><string>#f6f0dc</string>
+        <key>selection</key><string>#efe8cf</string>
+        <key>invisibles</key><string>#6b6a8a</string>
+      </dict>
+    </dict>
+    <dict><key>scope</key><string>comment</string><key>settings</key><dict><key>foreground</key><string>#6b6a8a</string><key>fontStyle</key><string>italic</string></dict></dict>
+    <dict><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#1f8a5c</string></dict></dict>
+    <dict><key>scope</key><string>constant.numeric</string><key>settings</key><dict><key>foreground</key><string>#006699</string></dict></dict>
+    <dict><key>scope</key><string>constant.language</string><key>settings</key><dict><key>foreground</key><string>#d9660a</string></dict></dict>
+    <dict><key>scope</key><string>constant.character, constant.other</string><key>settings</key><dict><key>foreground</key><string>#d9660a</string></dict></dict>
+    <dict><key>scope</key><string>variable</string><key>settings</key><dict><key>foreground</key><string>#292140</string></dict></dict>
+    <dict><key>scope</key><string>keyword</string><key>settings</key><dict><key>foreground</key><string>#d83a4a</string></dict></dict>
+    <dict><key>scope</key><string>storage</string><key>settings</key><dict><key>foreground</key><string>#d83a4a</string></dict></dict>
+    <dict><key>scope</key><string>storage.type</string><key>settings</key><dict><key>foreground</key><string>#7b4fc0</string><key>fontStyle</key><string>italic</string></dict></dict>
+    <dict><key>scope</key><string>entity.name.class, entity.name.type.class</string><key>settings</key><dict><key>foreground</key><string>#7b4fc0</string></dict></dict>
+    <dict><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#2f5fc7</string></dict></dict>
+    <dict><key>scope</key><string>variable.parameter</string><key>settings</key><dict><key>foreground</key><string>#d9660a</string><key>fontStyle</key><string>italic</string></dict></dict>
+    <dict><key>scope</key><string>entity.name.tag</string><key>settings</key><dict><key>foreground</key><string>#d83a4a</string></dict></dict>
+    <dict><key>scope</key><string>entity.other.attribute-name</string><key>settings</key><dict><key>foreground</key><string>#c9820f</string></dict></dict>
+    <dict><key>scope</key><string>support.function</string><key>settings</key><dict><key>foreground</key><string>#2f5fc7</string></dict></dict>
+    <dict><key>scope</key><string>support.constant</string><key>settings</key><dict><key>foreground</key><string>#d9660a</string></dict></dict>
+    <dict><key>scope</key><string>support.type, support.class</string><key>settings</key><dict><key>foreground</key><string>#7b4fc0</string></dict></dict>
+    <dict><key>scope</key><string>invalid</string><key>settings</key><dict><key>background</key><string>#d83a4a</string><key>foreground</key><string>#fdf9ec</string></dict></dict>
+    <dict><key>scope</key><string>markup.inserted</string><key>settings</key><dict><key>foreground</key><string>#1f8a5c</string></dict></dict>
+    <dict><key>scope</key><string>markup.deleted</string><key>settings</key><dict><key>foreground</key><string>#d83a4a</string></dict></dict>
+    <dict><key>scope</key><string>markup.changed</string><key>settings</key><dict><key>foreground</key><string>#c9820f</string></dict></dict>
+    <dict><key>scope</key><string>markup.heading</string><key>settings</key><dict><key>foreground</key><string>#c9820f</string><key>fontStyle</key><string>bold</string></dict></dict>
+    <dict><key>scope</key><string>markup.underline.link</string><key>settings</key><dict><key>foreground</key><string>#2f5fc7</string></dict></dict>
+    <dict><key>scope</key><string>markup.bold</string><key>settings</key><dict><key>foreground</key><string>#7b4fc0</string><key>fontStyle</key><string>bold</string></dict></dict>
+    <dict><key>scope</key><string>markup.italic</string><key>settings</key><dict><key>foreground</key><string>#d9660a</string><key>fontStyle</key><string>italic</string></dict></dict>
+  </array>
+</dict>
+</plist>

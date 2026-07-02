@@ -1,0 +1,28 @@
+# astral-supernova — lazygit theme
+# https://github.com/kmf/astral-journey
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#c9820f"
+      - bold
+    inactiveBorderColor:
+      - "#e2d8ba"
+    searchingActiveBorderColor:
+      - "#d9660a"
+      - bold
+    optionsTextColor:
+      - "#2f5fc7"
+    selectedLineBgColor:
+      - "#efe8cf"
+    selectedRangeBgColor:
+      - "#efe8cf"
+    cherryPickedCommitBgColor:
+      - "#006699"
+    cherryPickedCommitFgColor:
+      - "#fdf9ec"
+    unstagedChangesColor:
+      - "#d83a4a"
+    defaultFgColor:
+      - "#292140"
+  nerdFontsVersion: "3"

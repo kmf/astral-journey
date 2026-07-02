@@ -1,0 +1,95 @@
+# astral-blackhole — k9s skin
+# https://github.com/kmf/astral-journey
+#
+# Install:
+#   cp astral-blackhole.yaml ~/.config/k9s/skins/astral-blackhole.yaml
+#   Then in ~/.config/k9s/config.yaml:
+#     k9s:
+#       ui:
+#         skin: astral-blackhole
+
+k9s:
+  body:
+    fgColor: "#ebe8d2"
+    bgColor: "#0d0f1e"
+    logoColor: "#ffcc66"
+  prompt:
+    fgColor: "#ebe8d2"
+    bgColor: "#0d0f1e"
+    suggestColor: "#6a97ea"
+  info:
+    fgColor: "#767ba6"
+    sectionColor: "#ffcc66"
+  dialog:
+    fgColor: "#ebe8d2"
+    bgColor: "#14172a"
+    buttonFgColor: "#0d0f1e"
+    buttonBgColor: "#ffcc66"
+    buttonFocusFgColor: "#0d0f1e"
+    buttonFocusBgColor: "#ffff99"
+    labelFgColor: "#ff9933"
+    fieldFgColor: "#ebe8d2"
+  frame:
+    border:
+      fgColor: "#2a2f4d"
+      focusColor: "#ffcc66"
+    menu:
+      fgColor: "#ebe8d2"
+      keyColor: "#ffcc66"
+      numKeyColor: "#b78ae0"
+    crumbs:
+      fgColor: "#0d0f1e"
+      bgColor: "#ffcc66"
+      activeColor: "#ff9933"
+    status:
+      newColor: "#6a97ea"
+      modifyColor: "#ffcc66"
+      addColor: "#7ed4a3"
+      pendingColor: "#ff9933"
+      errorColor: "#ff6e6e"
+      highlightColor: "#38a8d0"
+      killColor: "#cc99cc"
+      completedColor: "#767ba6"
+    title:
+      fgColor: "#ffcc66"
+      bgColor: "#0d0f1e"
+      highlightColor: "#6a97ea"
+      counterColor: "#b78ae0"
+      filterColor: "#38a8d0"
+  views:
+    charts:
+      bgColor: "#0d0f1e"
+      defaultDialColors:
+        - "#6a97ea"
+        - "#ff6e6e"
+      defaultChartColors:
+        - "#6a97ea"
+        - "#ff6e6e"
+    table:
+      fgColor: "#ebe8d2"
+      bgColor: "#0d0f1e"
+      cursorFgColor: "#0d0f1e"
+      cursorBgColor: "#ffcc66"
+      markColor: "#38a8d0"
+      header:
+        fgColor: "#ffcc66"
+        bgColor: "#0d0f1e"
+        sorterColor: "#6a97ea"
+    xray:
+      fgColor: "#ebe8d2"
+      bgColor: "#0d0f1e"
+      cursorColor: "#ffcc66"
+      graphicColor: "#b78ae0"
+      showColor: "#7ed4a3"
+    yaml:
+      keyColor: "#6a97ea"
+      colonColor: "#767ba6"
+      valueColor: "#7ed4a3"
+    logs:
+      fgColor: "#ebe8d2"
+      bgColor: "#0d0f1e"
+      indicator:
+        fgColor: "#ffcc66"
+        bgColor: "#0d0f1e"
+        toggleOnColor: "#7ed4a3"
+        toggleOffColor: "#767ba6"

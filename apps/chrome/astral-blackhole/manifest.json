@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "astral-blackhole",
+  "version": "1.0.0",
+  "description": "warm star-glow falling into deep space — dark. https://github.com/kmf/astral-journey",
+  "theme": {
+    "colors": {
+      "frame":                           [13, 15, 30],
+      "frame_inactive":                  [13, 15, 30],
+      "frame_incognito":                 [13, 15, 30],
+      "frame_incognito_inactive":        [13, 15, 30],
+
+      "toolbar":                         [20, 23, 42],
+      "toolbar_text":                    [235, 232, 210],
+
+      "tab_text":                        [235, 232, 210],
+      "tab_background_text":             [118, 123, 166],
+      "tab_background_text_inactive":    [118, 123, 166],
+
+      "bookmark_text":                   [235, 232, 210],
+
+      "ntp_background":                  [13, 15, 30],
+      "ntp_text":                        [235, 232, 210],
+      "ntp_link":                        [106, 151, 234],
+      "ntp_header":                      [255, 204, 102],
+
+      "button_background":               [42, 47, 77],
+      "omnibox_background":              [20, 23, 42],
+      "omnibox_text":                    [235, 232, 210],
+
+      "toolbar_button_icon":             [255, 204, 102]
+    },
+    "tints": {
+      "buttons":     [-1, -1, 0.85],
+      "frame":       [-1, -1, 0.10],
+      "background_tab": [-1, -1, 0.15]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}

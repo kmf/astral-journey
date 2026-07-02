@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "astral-supernova",
+  "version": "1.0.0",
+  "description": "warm star-glow falling into deep space — light. https://github.com/kmf/astral-journey",
+  "theme": {
+    "colors": {
+      "frame":                           [253, 249, 236],
+      "frame_inactive":                  [253, 249, 236],
+      "frame_incognito":                 [253, 249, 236],
+      "frame_incognito_inactive":        [253, 249, 236],
+
+      "toolbar":                         [246, 240, 220],
+      "toolbar_text":                    [41, 33, 64],
+
+      "tab_text":                        [41, 33, 64],
+      "tab_background_text":             [107, 106, 138],
+      "tab_background_text_inactive":    [107, 106, 138],
+
+      "bookmark_text":                   [41, 33, 64],
+
+      "ntp_background":                  [253, 249, 236],
+      "ntp_text":                        [41, 33, 64],
+      "ntp_link":                        [47, 95, 199],
+      "ntp_header":                      [201, 130, 15],
+
+      "button_background":               [226, 216, 186],
+      "omnibox_background":              [246, 240, 220],
+      "omnibox_text":                    [41, 33, 64],
+
+      "toolbar_button_icon":             [201, 130, 15]
+    },
+    "tints": {
+      "buttons": [-1, -1, 0.3]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}

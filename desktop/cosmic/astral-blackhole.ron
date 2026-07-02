@@ -1,0 +1,98 @@
+// astral-blackhole — warm star-glow falling into deep space, for COSMIC Desktop
+// https://github.com/kmf/astral-journey
+//
+// Drop into ~/.config/cosmic/com.system76.CosmicTheme.Dark/v1/Theme
+// then import via Settings > Appearance > Dark Mode Theme.
+//
+// Note: COSMIC theme format is still evolving. This file targets the
+// theme schema as of cosmic-epoch 1.0. If fields differ in your version,
+// use `cosmic-settings` > Appearance > Custom Theme > Export to see the
+// current schema and merge astral-journey values into it.
+
+(
+    palette: Dark((
+        name: "astral-blackhole",
+
+        // base accents
+        blue:          (red: 0.416, green: 0.592, blue: 0.918, alpha: 1.0),  // #6a97ea
+        red:           (red: 1.000, green: 0.431, blue: 0.431, alpha: 1.0),  // #ff6e6e
+        green:         (red: 0.494, green: 0.831, blue: 0.639, alpha: 1.0),  // #7ed4a3
+        yellow:        (red: 1.000, green: 0.800, blue: 0.400, alpha: 1.0),  // #ffcc66
+
+        // cosmic-specific brights — more saturated for desktop UI
+        bright_blue:   (red: 0.600, green: 0.800, blue: 1.000, alpha: 1.0),  // #99ccff
+        bright_red:    (red: 1.000, green: 0.541, blue: 0.502, alpha: 1.0),  // #ff8a80
+        bright_green:  (red: 0.596, green: 0.878, blue: 0.729, alpha: 1.0),  // #98e0ba
+        bright_yellow: (red: 1.000, green: 1.000, blue: 0.600, alpha: 1.0),  // #ffff99
+        bright_orange: (red: 1.000, green: 0.600, blue: 0.200, alpha: 1.0),  // #ff9933
+
+        // accent slots
+        accent_blue:   (red: 0.416, green: 0.592, blue: 0.918, alpha: 1.0),  // #6a97ea
+        accent_green:  (red: 0.494, green: 0.831, blue: 0.639, alpha: 1.0),  // #7ed4a3
+        accent_indigo: (red: 0.718, green: 0.541, blue: 0.878, alpha: 1.0),  // #b78ae0
+        accent_orange: (red: 1.000, green: 0.600, blue: 0.200, alpha: 1.0),  // #ff9933
+        accent_pink:   (red: 0.800, green: 0.600, blue: 0.800, alpha: 1.0),  // #cc99cc
+        accent_purple: (red: 0.718, green: 0.541, blue: 0.878, alpha: 1.0),  // #b78ae0
+        accent_red:    (red: 1.000, green: 0.431, blue: 0.431, alpha: 1.0),  // #ff6e6e
+        accent_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0), // #767ba6
+        accent_yellow: (red: 1.000, green: 0.800, blue: 0.400, alpha: 1.0),  // #ffcc66
+
+        // ext slots — cosmic-specific bright accents
+        ext_blue:      (red: 0.600, green: 0.800, blue: 1.000, alpha: 1.0),  // #99ccff
+        ext_orange:    (red: 1.000, green: 0.600, blue: 0.200, alpha: 1.0),  // #ff9933
+        ext_pink:      (red: 0.851, green: 0.663, blue: 0.878, alpha: 1.0),  // #d9a9e0  bright_magenta
+        ext_purple:    (red: 0.718, green: 0.541, blue: 0.878, alpha: 1.0),  // #b78ae0  bright_violet
+        ext_indigo:    (red: 0.600, green: 0.800, blue: 1.000, alpha: 1.0),  // #99ccff
+        ext_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #767ba6
+        ext_yellow:    (red: 1.000, green: 1.000, blue: 0.600, alpha: 1.0),  // #ffff99
+
+        // neutrals — gray and neutral ramp
+        gray_1:        (red: 0.051, green: 0.059, blue: 0.118, alpha: 1.0),  // #0d0f1e  bg
+        gray_2:        (red: 0.078, green: 0.090, blue: 0.165, alpha: 1.0),  // #14172a  bg-soft
+        gray_3:        (red: 0.110, green: 0.125, blue: 0.220, alpha: 1.0),  // #1c2038  bg-hi
+        neutral_0:     (red: 0.051, green: 0.059, blue: 0.118, alpha: 1.0),  // #0d0f1e
+        neutral_1:     (red: 0.078, green: 0.090, blue: 0.165, alpha: 1.0),  // #14172a
+        neutral_2:     (red: 0.110, green: 0.125, blue: 0.220, alpha: 1.0),  // #1c2038
+        neutral_3:     (red: 0.165, green: 0.184, blue: 0.302, alpha: 1.0),  // #2a2f4d
+        neutral_4:     (red: 0.247, green: 0.275, blue: 0.439, alpha: 1.0),  // #3f4670
+        neutral_5:     (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #767ba6
+        neutral_6:     (red: 0.604, green: 0.620, blue: 0.761, alpha: 1.0),  // #9a9ec2
+        neutral_7:     (red: 0.769, green: 0.761, blue: 0.847, alpha: 1.0),  // #c4c2d8
+        neutral_8:     (red: 0.922, green: 0.910, blue: 0.824, alpha: 1.0),  // #ebe8d2  fg
+        neutral_9:     (red: 0.992, green: 0.984, blue: 0.894, alpha: 1.0),  // #fdfbe4  fg-alt
+        neutral_10:    (red: 1.000, green: 1.000, blue: 0.941, alpha: 1.0),  // #fffff0
+    )),
+    spacing: (
+        space_none: 0,
+        space_xxxs: 2,
+        space_xxs: 4,
+        space_xs: 8,
+        space_s: 12,
+        space_m: 16,
+        space_l: 24,
+        space_xl: 32,
+        space_xxl: 48,
+        space_xxxl: 64,
+    ),
+    corner_radii: (
+        radius_0: (0.0, 0.0, 0.0, 0.0),
+        radius_xs: (2.0, 2.0, 2.0, 2.0),
+        radius_s: (8.0, 8.0, 8.0, 8.0),
+        radius_m: (8.0, 8.0, 8.0, 8.0),
+        radius_l: (8.0, 8.0, 8.0, 8.0),
+        radius_xl: (8.0, 8.0, 8.0, 8.0),
+    ),
+    bg_color: Some((red: 0.051, green: 0.059, blue: 0.118, alpha: 1.0,)),
+    text_tint: Some((red: 0.922, green: 0.910, blue: 0.824,)),
+    accent: Some((red: 0.416, green: 0.592, blue: 0.918,)),
+    success: Some((red: 0.494, green: 0.831, blue: 0.639,)),
+    warning: Some((red: 1.000, green: 0.800, blue: 0.400,)),
+    destructive: Some((red: 1.000, green: 0.541, blue: 0.502,)),
+    window_hint: Some((red: 0.600, green: 0.800, blue: 1.000,)),
+    neutral_tint: Some((red: 0.463, green: 0.482, blue: 0.651,)),
+    primary_container_bg: Some((red: 0.078, green: 0.090, blue: 0.165, alpha: 1.0,)),
+    secondary_container_bg: Some((red: 0.110, green: 0.125, blue: 0.220, alpha: 1.0,)),
+    is_frosted: true,
+    gaps: (0, 8),
+    active_hint: 3,
+)

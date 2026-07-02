@@ -1,0 +1,58 @@
+# astral-supernova — astral journey
+# https://github.com/kmf/astral-journey
+
+[colors.primary]
+background = "#fdf9ec"
+foreground = "#292140"
+
+[colors.cursor]
+cursor = "#d9660a"
+text = "#fdf9ec"
+
+[colors.vi_mode_cursor]
+cursor = "#1f8a5c"
+text = "#fdf9ec"
+
+[colors.selection]
+background = "#664466"
+text = "#1c1730"
+
+[colors.search.matches]
+background = "#b07d00"
+foreground = "#fdf9ec"
+
+[colors.search.focused_match]
+background = "#d9660a"
+foreground = "#fdf9ec"
+
+[colors.hints.start]
+background = "#b07d00"
+foreground = "#fdf9ec"
+
+[colors.hints.end]
+background = "#6b6a8a"
+foreground = "#fdf9ec"
+
+[colors.footer_bar]
+background = "#f6f0dc"
+foreground = "#292140"
+
+[colors.normal]
+black = "#292140"
+red = "#d83a4a"
+green = "#1f8a5c"
+yellow = "#b07d00"
+blue = "#2f5fc7"
+magenta = "#a34fa8"
+cyan = "#006699"
+white = "#f6f0dc"
+
+[colors.bright]
+black = "#6b6a8a"
+red = "#c22f3e"
+green = "#187a4f"
+yellow = "#9c6e00"
+blue = "#2551ad"
+magenta = "#8f4494"
+cyan = "#005982"
+white = "#1c1730"

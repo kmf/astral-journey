@@ -1,0 +1,23 @@
+{
+  "name": "astral-supernova",
+  "background": "#FDF9EC",
+  "foreground": "#292140",
+  "cursorColor": "#D9660A",
+  "selectionBackground": "#664466",
+  "black": "#292140",
+  "red": "#D83A4A",
+  "green": "#1F8A5C",
+  "yellow": "#B07D00",
+  "blue": "#2F5FC7",
+  "purple": "#A34FA8",
+  "cyan": "#006699",
+  "white": "#F6F0DC",
+  "brightBlack": "#6B6A8A",
+  "brightRed": "#C22F3E",
+  "brightGreen": "#187A4F",
+  "brightYellow": "#9C6E00",
+  "brightBlue": "#2551AD",
+  "brightPurple": "#8F4494",
+  "brightCyan": "#005982",
+  "brightWhite": "#1C1730"
+}

@@ -1,0 +1,38 @@
+# astral-blackhole — starship prompt
+# https://github.com/kmf/astral-journey
+#
+# Install:
+#   cp astral-blackhole.toml ~/.config/starship.toml
+#   or merge into your existing config.
+
+palette = "astral-blackhole"
+
+[palettes.astral-blackhole]
+bg       = "#0d0f1e"
+bg_soft  = "#14172a"
+border   = "#2a2f4d"
+fg       = "#ebe8d2"
+fg_muted = "#767ba6"
+yellow   = "#ffcc66"
+orange   = "#ff9933"
+red      = "#ff6e6e"
+magenta  = "#cc99cc"
+violet   = "#b78ae0"
+blue     = "#6a97ea"
+teal     = "#38a8d0"
+green    = "#7ed4a3"
+
+[palettes.astral-supernova]
+bg       = "#fdf9ec"
+bg_soft  = "#f6f0dc"
+border   = "#e2d8ba"
+fg       = "#292140"
+fg_muted = "#6b6a8a"
+yellow   = "#c9820f"
+orange   = "#d9660a"
+red      = "#d83a4a"
+magenta  = "#a34fa8"
+violet   = "#7b4fc0"
+blue     = "#2f5fc7"
+teal     = "#006699"
+green    = "#1f8a5c"
