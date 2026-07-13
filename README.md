@@ -24,7 +24,7 @@ matching configs for every tool in your stack.
 | ![border](https://singlecolorimage.com/get/2a2f4d/16x16) | border | `#2a2f4d` |
 | ![fg](https://singlecolorimage.com/get/ebe8d2/16x16) | fg | `#ebe8d2` |
 | ![fg_alt](https://singlecolorimage.com/get/fdfbe4/16x16) | fg_alt | `#fdfbe4` |
-| ![fg_muted](https://singlecolorimage.com/get/767ba6/16x16) | fg_muted | `#767ba6` |
+| ![fg_muted](https://singlecolorimage.com/get/8b90bd/16x16) | fg_muted | `#8b90bd` |
 
 **Accents**
 
@@ -55,24 +55,24 @@ matching configs for every tool in your stack.
 | ![border](https://singlecolorimage.com/get/e2d8ba/16x16) | border | `#e2d8ba` |
 | ![fg](https://singlecolorimage.com/get/292140/16x16) | fg | `#292140` |
 | ![fg_alt](https://singlecolorimage.com/get/1c1730/16x16) | fg_alt | `#1c1730` |
-| ![fg_muted](https://singlecolorimage.com/get/6b6a8a/16x16) | fg_muted | `#6b6a8a` |
+| ![fg_muted](https://singlecolorimage.com/get/5d5c78/16x16) | fg_muted | `#5d5c78` |
 
 **Accents**
 
 | | Token | Hex |
 |---|---|---|
-| ![yellow](https://singlecolorimage.com/get/b07d00/16x16) | yellow | `#b07d00` |
-| ![amber](https://singlecolorimage.com/get/c9820f/16x16) | amber | `#c9820f` |
-| ![orange](https://singlecolorimage.com/get/d9660a/16x16) | orange | `#d9660a` |
-| ![peach](https://singlecolorimage.com/get/c77a4a/16x16) | peach | `#c77a4a` |
-| ![coral](https://singlecolorimage.com/get/d83a4a/16x16) | coral | `#d83a4a` |
+| ![yellow](https://singlecolorimage.com/get/946900/16x16) | yellow | `#946900` |
+| ![amber](https://singlecolorimage.com/get/9d650c/16x16) | amber | `#9d650c` |
+| ![orange](https://singlecolorimage.com/get/b65608/16x16) | orange | `#b65608` |
+| ![peach](https://singlecolorimage.com/get/a65f33/16x16) | peach | `#a65f33` |
+| ![coral](https://singlecolorimage.com/get/d62e3f/16x16) | coral | `#d62e3f` |
 | ![lilac](https://singlecolorimage.com/get/a34fa8/16x16) | lilac | `#a34fa8` |
 | ![violet](https://singlecolorimage.com/get/7b4fc0/16x16) | violet | `#7b4fc0` |
 | ![plum](https://singlecolorimage.com/get/664466/16x16) | plum | `#664466` |
 | ![haze](https://singlecolorimage.com/get/2f6fd0/16x16) | haze | `#2f6fd0` |
 | ![azure](https://singlecolorimage.com/get/2f5fc7/16x16) | azure | `#2f5fc7` |
 | ![teal](https://singlecolorimage.com/get/006699/16x16) | teal | `#006699` |
-| ![aurora](https://singlecolorimage.com/get/1f8a5c/16x16) | aurora | `#1f8a5c` |
+| ![aurora](https://singlecolorimage.com/get/1d8156/16x16) | aurora | `#1d8156` |
 
 ## Install
 

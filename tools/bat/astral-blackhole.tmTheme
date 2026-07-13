@@ -15,14 +15,14 @@
         <key>caret</key><string>#ffcc66</string>
         <key>lineHighlight</key><string>#14172a</string>
         <key>selection</key><string>#1c2038</string>
-        <key>invisibles</key><string>#767ba6</string>
+        <key>invisibles</key><string>#8b90bd</string>
       </dict>
     </dict>
     <dict>
       <key>name</key><string>Comment</string>
       <key>scope</key><string>comment</string>
       <key>settings</key>
-      <dict><key>foreground</key><string>#767ba6</string><key>fontStyle</key><string>italic</string></dict>
+      <dict><key>foreground</key><string>#8b90bd</string><key>fontStyle</key><string>italic</string></dict>
     </dict>
     <dict>
       <key>name</key><string>String</string>

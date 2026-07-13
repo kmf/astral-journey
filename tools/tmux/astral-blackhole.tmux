@@ -13,14 +13,14 @@ set -g status-interval 5
 
 # --- left: session name ---
 set -g status-left-length 40
-set -g status-left "#[bg=#ffcc66,fg=#0d0f1e,bold] ✦ #S #[bg=#14172a,fg=#ffcc66]#[bg=#14172a,fg=#767ba6] "
+set -g status-left "#[bg=#ffcc66,fg=#0d0f1e,bold] ✦ #S #[bg=#14172a,fg=#ffcc66]#[bg=#14172a,fg=#8b90bd] "
 
 # --- right: date + time + host ---
 set -g status-right-length 80
-set -g status-right "#[fg=#767ba6]#[fg=#ebe8d2,bg=#1c2038] %Y-%m-%d #[fg=#ffcc66]· #[fg=#ebe8d2]%H:%M #[fg=#b78ae0,bg=#1c2038]#[fg=#0d0f1e,bg=#b78ae0,bold] #h "
+set -g status-right "#[fg=#8b90bd]#[fg=#ebe8d2,bg=#1c2038] %Y-%m-%d #[fg=#ffcc66]· #[fg=#ebe8d2]%H:%M #[fg=#b78ae0,bg=#1c2038]#[fg=#0d0f1e,bg=#b78ae0,bold] #h "
 
 # --- windows ---
-set -g window-status-format "#[fg=#767ba6,bg=#14172a] #I #W "
+set -g window-status-format "#[fg=#8b90bd,bg=#14172a] #I #W "
 set -g window-status-current-format "#[fg=#14172a,bg=#ffcc66]#[fg=#0d0f1e,bg=#ffcc66,bold] #I #W #[fg=#ffcc66,bg=#14172a]"
 set -g window-status-separator ""
 
@@ -28,7 +28,7 @@ set -g window-status-separator ""
 set -g pane-border-style "fg=#2a2f4d"
 set -g pane-active-border-style "fg=#ffcc66"
 set -g display-panes-active-colour "#ffcc66"
-set -g display-panes-colour "#767ba6"
+set -g display-panes-colour "#8b90bd"
 
 # --- messages / command prompt ---
 set -g message-style "bg=#1c2038,fg=#ebe8d2"

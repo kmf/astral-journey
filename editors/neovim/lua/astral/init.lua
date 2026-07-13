@@ -11,7 +11,7 @@ M.palettes = {
     border     = "#2a2f4d",
     fg         = "#ebe8d2",
     fg_alt     = "#fdfbe4",
-    fg_muted   = "#767ba6",
+    fg_muted   = "#8b90bd",
     yellow     = "#ffcc66",
     orange     = "#ff9933",
     red        = "#ff6e6e",
@@ -39,22 +39,22 @@ M.palettes = {
     border     = "#e2d8ba",
     fg         = "#292140",
     fg_alt     = "#1c1730",
-    fg_muted   = "#6b6a8a",
-    yellow     = "#c9820f",
-    orange     = "#d9660a",
-    red        = "#d83a4a",
+    fg_muted   = "#5d5c78",
+    yellow     = "#9d650c",
+    orange     = "#b65608",
+    red        = "#d62e3f",
     magenta    = "#a34fa8",
     violet     = "#7b4fc0",
     blue       = "#2f5fc7",
     teal       = "#006699",
-    green      = "#1f8a5c",
+    green      = "#1d8156",
     br_red     = "#c22f3e",
     br_green   = "#187a4f",
     br_yellow  = "#9c6e00",
     br_blue    = "#2551ad",
     br_magenta = "#8f4494",
     br_teal    = "#005982",
-    br_orange  = "#c77a4a",
+    br_orange  = "#a65f33",
     br_violet  = "#2f6fd0",
     diff_add_bg = "#dee9d8",
     diff_del_bg = "#f8ded5",
@@ -294,6 +294,26 @@ function M.load()
   hi("TelescopeSelection",    { bg = p.bg_hi })
   hi("TelescopeMatching",     { fg = p.blue, bold = true })
   hi("TelescopeResultsNormal",{ fg = p.fg })
+  -- directory/path segment (e.g. path_display = "filename_first") — keep it
+  -- readable rather than falling back to the dim, italic Comment default
+  hi("TelescopeResultsComment",       { fg = p.fg_muted })
+  hi("TelescopeResultsSpecialComment",{ fg = p.fg_muted })
+  hi("TelescopePathSeparator",        { fg = p.fg_muted })
+
+  -- ── snacks.picker (LazyVim default) ────────────────
+  hi("SnacksPickerFile",      { fg = p.fg })
+  hi("SnacksPickerDir",       { fg = p.fg_muted }) -- readable now that fg_muted was bumped
+  hi("SnacksPickerPathHidden",{ fg = p.border })
+  hi("SnacksPickerPathIgnored",{ fg = p.border })
+  hi("SnacksPickerMatch",     { fg = p.blue, bold = true })
+  hi("SnacksPickerRow",       { fg = p.fg_muted })
+  hi("SnacksPickerCol",       { fg = p.fg_muted })
+
+  -- ── fzf-lua ────────────────────────────────────────
+  hi("FzfLuaFilePart",        { fg = p.fg })
+  hi("FzfLuaDirPart",         { fg = p.fg_muted })   -- readable now that fg_muted was bumped
+  hi("FzfLuaPathColNr",       { fg = p.teal })
+  hi("FzfLuaPathLineNr",      { fg = p.teal })
 
   -- ── nvim-cmp ───────────────────────────────────────
   hi("CmpItemAbbr",           { fg = p.fg })

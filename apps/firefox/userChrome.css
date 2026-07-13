@@ -22,7 +22,7 @@
   --astral-border:    #2a2f4d;
   --astral-fg:        #ebe8d2;
   --astral-fg-alt:    #fdfbe4;
-  --astral-fg-muted:  #767ba6;
+  --astral-fg-muted:  #8b90bd;
   --astral-yellow:    #ffcc66;
   --astral-blue:      #6a97ea;
   --astral-red:       #ff6e6e;
@@ -37,10 +37,10 @@
     --astral-border:    #e2d8ba;
     --astral-fg:        #292140;
     --astral-fg-alt:    #1c1730;
-    --astral-fg-muted:  #6b6a8a;
-    --astral-yellow:    #c9820f;
+    --astral-fg-muted:  #5d5c78;
+    --astral-yellow:    #9d650c;
     --astral-blue:      #2f5fc7;
-    --astral-red:       #d83a4a;
+    --astral-red:       #d62e3f;
     --astral-teal:      #006699;
   }
 }

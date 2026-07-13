@@ -55,7 +55,7 @@ Deep-space indigo base with warm starlight text and glowing accents.
 | `--astral-border` | `#2a2f4d` | Dividers, subtle borders |
 | `--astral-fg` | `#ebe8d2` | Primary text — warm starlight |
 | `--astral-fg-alt` | `#fdfbe4` | Emphasized text — bright star glow |
-| `--astral-fg-muted` | `#767ba6` | Comments, secondary text, inactive UI |
+| `--astral-fg-muted` | `#8b90bd` | Comments, secondary text, inactive UI |
 
 ### Accents
 
@@ -86,7 +86,7 @@ full neutral scale (e.g., COSMIC Desktop).
 | 2 | `#1c2038` | bg-hi |
 | 3 | `#2a2f4d` | border |
 | 4 | `#3f4670` | — |
-| 5 | `#767ba6` | fg-muted |
+| 5 | `#8b90bd` | fg-muted |
 | 6 | `#9a9ec2` | — |
 | 7 | `#c4c2d8` | — |
 | 8 | `#ebe8d2` | fg |
@@ -109,24 +109,24 @@ Warm near-white star field with deep cosmic-ink text and darkened accents.
 | `--astral-border` | `#e2d8ba` | Dividers, subtle borders |
 | `--astral-fg` | `#292140` | Primary text — deep cosmic ink |
 | `--astral-fg-alt` | `#1c1730` | Emphasized text — deepest indigo |
-| `--astral-fg-muted` | `#6b6a8a` | Comments, secondary text, inactive UI |
+| `--astral-fg-muted` | `#5d5c78` | Comments, secondary text, inactive UI |
 
 ### Accents
 
 | Token | Hex | Role |
 |---|---|---|
-| `--astral-yellow` | `#b07d00` | Bright markers, highlights, streaks |
-| `--astral-amber` | `#c9820f` | Primary accent, warnings, active states |
-| `--astral-orange` | `#d9660a` | Cursor, secondary emphasis, solar flare |
-| `--astral-peach` | `#c77a4a` | Soft highlights, gentle emphasis |
-| `--astral-coral` | `#d83a4a` | Errors, destructive actions, critical values |
+| `--astral-yellow` | `#946900` | Bright markers, highlights, streaks |
+| `--astral-amber` | `#9d650c` | Primary accent, warnings, active states |
+| `--astral-orange` | `#b65608` | Cursor, secondary emphasis, solar flare |
+| `--astral-peach` | `#a65f33` | Soft highlights, gentle emphasis |
+| `--astral-coral` | `#d62e3f` | Errors, destructive actions, critical values |
 | `--astral-lilac` | `#a34fa8` | Special syntax, rare markers |
 | `--astral-violet` | `#7b4fc0` | Types, XP / gamification markers |
 | `--astral-plum` | `#664466` | Deep nebula — selection tint, deep fills |
 | `--astral-haze` | `#2f6fd0` | Cosmic haze — bright info, links |
 | `--astral-azure` | `#2f5fc7` | Links, informational states, primary interactive |
 | `--astral-teal` | `#006699` | Success indicators, shields, constants |
-| `--astral-aurora` | `#1f8a5c` | Strings, success states, positive deltas |
+| `--astral-aurora` | `#1d8156` | Strings, success states, positive deltas |
 
 ### Neutral ramp
 
@@ -135,7 +135,7 @@ Warm near-white star field with deep cosmic-ink text and darkened accents.
 | 0 | `#292140` | fg |
 | 1 | `#3a3358` | — |
 | 2 | `#524d70` | — |
-| 3 | `#6b6a8a` | fg-muted |
+| 3 | `#5d5c78` | fg-muted |
 | 4 | `#9a97b0` | — |
 | 5 | `#e2d8ba` | border |
 | 6 | `#efe8cf` | bg-hi |
@@ -181,14 +181,14 @@ Windows Terminal).
 | ANSI | Name | Hex |
 |---|---|---|
 | 0 | black | `#292140` |
-| 1 | red | `#d83a4a` |
-| 2 | green | `#1f8a5c` |
-| 3 | yellow | `#b07d00` |
+| 1 | red | `#d62e3f` |
+| 2 | green | `#1d8156` |
+| 3 | yellow | `#946900` |
 | 4 | blue | `#2f5fc7` |
 | 5 | magenta | `#a34fa8` |
 | 6 | cyan | `#006699` |
 | 7 | white | `#f6f0dc` |
-| 8 | bright black | `#6b6a8a` |
+| 8 | bright black | `#5d5c78` |
 | 9 | bright red | `#c22f3e` |
 | 10 | bright green | `#187a4f` |
 | 11 | bright yellow | `#9c6e00` |
@@ -198,7 +198,7 @@ Windows Terminal).
 | 15 | bright white | `#1c1730` |
 | — | foreground | `#292140` |
 | — | background | `#fdf9ec` |
-| — | cursor | `#d9660a` |
+| — | cursor | `#b65608` |
 | — | selection bg | `#66446630` |
 
 ---

@@ -17,16 +17,16 @@ set -euo pipefail
 VARIANT="${ASTRAL_VARIANT:-blackhole}"
 
 if [[ "$VARIANT" == "supernova" ]]; then
-  FG_MUTED="107;106;138"   # #6b6a8a
-  YELLOW="176;125;0"        # #b07d00
-  ORANGE="217;102;10"       # #d9660a
-  RED="216;58;74"           # #d83a4a
+  FG_MUTED="107;106;138"   # #5d5c78
+  YELLOW="176;125;0"        # #946900
+  ORANGE="217;102;10"       # #b65608
+  RED="216;58;74"           # #d62e3f
   BLUE="47;95;199"          # #2f5fc7
   TEAL="0;102;153"          # #006699
-  GREEN="31;138;92"         # #1f8a5c
+  GREEN="31;138;92"         # #1d8156
   VIOLET="123;79;192"       # #7b4fc0
 else
-  FG_MUTED="118;123;166"    # #767ba6
+  FG_MUTED="118;123;166"    # #8b90bd
   YELLOW="255;255;153"      # #ffff99
   ORANGE="255;153;51"       # #ff9933
   RED="255;110;110"         # #ff6e6e

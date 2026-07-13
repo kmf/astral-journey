@@ -7,9 +7,9 @@
 
         // base accents
         blue:          (red: 0.184, green: 0.373, blue: 0.780, alpha: 1.0),  // #2f5fc7
-        red:           (red: 0.847, green: 0.227, blue: 0.290, alpha: 1.0),  // #d83a4a
-        green:         (red: 0.122, green: 0.541, blue: 0.361, alpha: 1.0),  // #1f8a5c
-        yellow:        (red: 0.788, green: 0.510, blue: 0.059, alpha: 1.0),  // #c9820f
+        red:           (red: 0.847, green: 0.227, blue: 0.290, alpha: 1.0),  // #d62e3f
+        green:         (red: 0.122, green: 0.541, blue: 0.361, alpha: 1.0),  // #1d8156
+        yellow:        (red: 0.788, green: 0.510, blue: 0.059, alpha: 1.0),  // #9d650c
 
         // cosmic-specific brights — deeper/bolder for desktop UI
         bright_blue:   (red: 0.145, green: 0.318, blue: 0.678, alpha: 1.0),  // #2551ad
@@ -20,14 +20,14 @@
 
         // accent slots
         accent_blue:   (red: 0.184, green: 0.373, blue: 0.780, alpha: 1.0),  // #2f5fc7
-        accent_green:  (red: 0.122, green: 0.541, blue: 0.361, alpha: 1.0),  // #1f8a5c
+        accent_green:  (red: 0.122, green: 0.541, blue: 0.361, alpha: 1.0),  // #1d8156
         accent_indigo: (red: 0.482, green: 0.310, blue: 0.753, alpha: 1.0),  // #7b4fc0
-        accent_orange: (red: 0.851, green: 0.400, blue: 0.039, alpha: 1.0),  // #d9660a
+        accent_orange: (red: 0.851, green: 0.400, blue: 0.039, alpha: 1.0),  // #b65608
         accent_pink:   (red: 0.639, green: 0.310, blue: 0.659, alpha: 1.0),  // #a34fa8
         accent_purple: (red: 0.482, green: 0.310, blue: 0.753, alpha: 1.0),  // #7b4fc0
-        accent_red:    (red: 0.847, green: 0.227, blue: 0.290, alpha: 1.0),  // #d83a4a
-        accent_warm_grey: (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0), // #6b6a8a
-        accent_yellow: (red: 0.788, green: 0.510, blue: 0.059, alpha: 1.0),  // #c9820f
+        accent_red:    (red: 0.847, green: 0.227, blue: 0.290, alpha: 1.0),  // #d62e3f
+        accent_warm_grey: (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0), // #5d5c78
+        accent_yellow: (red: 0.788, green: 0.510, blue: 0.059, alpha: 1.0),  // #9d650c
 
         // ext slots — cosmic-specific bright accents
         ext_blue:      (red: 0.145, green: 0.318, blue: 0.678, alpha: 1.0),  // #2551ad
@@ -35,7 +35,7 @@
         ext_pink:      (red: 0.561, green: 0.267, blue: 0.580, alpha: 1.0),  // #8f4494  bright_magenta
         ext_purple:    (red: 0.482, green: 0.310, blue: 0.753, alpha: 1.0),  // #7b4fc0  bright_violet
         ext_indigo:    (red: 0.145, green: 0.318, blue: 0.678, alpha: 1.0),  // #2551ad
-        ext_warm_grey: (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0),  // #6b6a8a
+        ext_warm_grey: (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0),  // #5d5c78
         ext_yellow:    (red: 0.612, green: 0.431, blue: 0.000, alpha: 1.0),  // #9c6e00
 
         // neutrals — gray and neutral ramp
@@ -45,7 +45,7 @@
         neutral_0:     (red: 0.161, green: 0.129, blue: 0.251, alpha: 1.0),  // #292140
         neutral_1:     (red: 0.227, green: 0.200, blue: 0.345, alpha: 1.0),  // #3a3358
         neutral_2:     (red: 0.322, green: 0.302, blue: 0.439, alpha: 1.0),  // #524d70
-        neutral_3:     (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0),  // #6b6a8a
+        neutral_3:     (red: 0.420, green: 0.416, blue: 0.541, alpha: 1.0),  // #5d5c78
         neutral_4:     (red: 0.604, green: 0.592, blue: 0.690, alpha: 1.0),  // #9a97b0
         neutral_5:     (red: 0.886, green: 0.847, blue: 0.729, alpha: 1.0),  // #e2d8ba
         neutral_6:     (red: 0.937, green: 0.910, blue: 0.812, alpha: 1.0),  // #efe8cf

@@ -18,7 +18,7 @@
       "toolbar_field":               "#fdf9ec",
       "toolbar_field_focus":         "#f6f0dc",
       "toolbar_field_border":        "#e2d8ba",
-      "toolbar_field_border_focus":  "#c9820f",
+      "toolbar_field_border_focus":  "#9d650c",
       "toolbar_field_text":          "#292140",
       "toolbar_field_text_focus":    "#292140",
       "toolbar_field_highlight":     "#efe8cf",
@@ -29,10 +29,10 @@
       "toolbar_vertical_separator":  "#e2d8ba",
 
       "tab_text":                    "#292140",
-      "tab_background_text":         "#6b6a8a",
+      "tab_background_text":         "#5d5c78",
       "tab_background_separator":    "#e2d8ba",
-      "tab_line":                    "#c9820f",
-      "tab_loading":                 "#c9820f",
+      "tab_line":                    "#9d650c",
+      "tab_loading":                 "#9d650c",
       "tab_selected":                "#efe8cf",
 
       "bookmark_text":               "#292140",
@@ -40,7 +40,7 @@
       "button_background_active":    "#e2d8ba",
 
       "icons":                       "#292140",
-      "icons_attention":             "#c9820f",
+      "icons_attention":             "#9d650c",
 
       "ntp_background":              "#fdf9ec",
       "ntp_card_background":         "#f6f0dc",
@@ -54,7 +54,7 @@
 
       "sidebar":                     "#fdf9ec",
       "sidebar_border":              "#e2d8ba",
-      "sidebar_highlight":           "#c9820f",
+      "sidebar_highlight":           "#9d650c",
       "sidebar_highlight_text":      "#fdf9ec",
       "sidebar_text":                "#292140",
 

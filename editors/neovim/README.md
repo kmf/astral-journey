@@ -58,7 +58,9 @@ Tested with and provides highlight groups for:
 
 - **Tree-sitter** — full `@capture` group coverage
 - **LSP semantic tokens** — `@lsp.type.*` groups
-- **Telescope** — borders, titles, matches, selection
+- **Telescope** — borders, titles, matches, selection, readable path segments
+- **snacks.picker** (LazyVim default) — file/dir/match, readable paths
+- **fzf-lua** — file/dir parts, path line/col numbers
 - **nvim-cmp** — item kinds, match highlighting
 - **gitsigns.nvim** — add/change/delete signs, blame
 - **indent-blankline.nvim** — indent guides, scope highlights

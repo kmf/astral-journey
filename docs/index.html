@@ -22,7 +22,7 @@
                 --aj-border: #2a2f4d;
                 --aj-fg: #ebe8d2;
                 --aj-fg-alt: #fdfbe4;
-                --aj-fg-muted: #767ba6;
+                --aj-fg-muted: #8b90bd;
                 --aj-yellow: #ffff99;
                 --aj-amber: #ffcc66;
                 --aj-orange: #ff9933;
@@ -44,19 +44,19 @@
                 --aj-border: #e2d8ba;
                 --aj-fg: #292140;
                 --aj-fg-alt: #1c1730;
-                --aj-fg-muted: #6b6a8a;
-                --aj-yellow: #b07d00;
-                --aj-amber: #c9820f;
-                --aj-orange: #d9660a;
-                --aj-peach: #c77a4a;
-                --aj-coral: #d83a4a;
+                --aj-fg-muted: #5d5c78;
+                --aj-yellow: #946900;
+                --aj-amber: #9d650c;
+                --aj-orange: #b65608;
+                --aj-peach: #a65f33;
+                --aj-coral: #d62e3f;
                 --aj-lilac: #a34fa8;
                 --aj-violet: #7b4fc0;
                 --aj-plum: #664466;
                 --aj-haze: #2f6fd0;
                 --aj-azure: #2f5fc7;
                 --aj-teal: #006699;
-                --aj-aurora: #1f8a5c;
+                --aj-aurora: #1d8156;
             }
 
             * {
@@ -210,7 +210,13 @@
             .swatch .info {
                 padding: 0.5rem 0.6rem;
                 display: flex;
+                flex-direction: column;
+                gap: 0.35rem;
+            }
+            .swatch .row {
+                display: flex;
                 justify-content: space-between;
+                align-items: center;
                 gap: 0.5rem;
             }
             .swatch .name { color: var(--aj-fg); }
@@ -219,6 +225,68 @@
                 text-transform: uppercase;
                 font-size: 0.75rem;
             }
+            .swatch .ratio {
+                color: var(--aj-fg-muted);
+                font-size: 0.72rem;
+            }
+            .badge {
+                font-size: 0.62rem;
+                font-weight: 700;
+                letter-spacing: 0.04em;
+                padding: 0.05rem 0.35rem;
+                border-radius: 4px;
+                text-transform: uppercase;
+            }
+            .badge.aaa,
+            .badge.aa   { color: var(--aj-bg); background: var(--aj-aurora); }
+            .badge.large { color: var(--aj-bg); background: var(--aj-amber); }
+            .badge.low  { color: var(--aj-bg); background: var(--aj-coral); }
+            .badge.fill { color: var(--aj-fg-muted); background: var(--aj-bg-hi); }
+
+            /* ---------- find-files picker mockup ---------- */
+            .picker {
+                background: var(--aj-bg-soft);
+                border: 1px solid var(--aj-border);
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .picker-input {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.6rem 0.9rem;
+                border-bottom: 1px solid var(--aj-border);
+                color: var(--aj-fg);
+            }
+            .picker-input .p { color: var(--aj-orange); font-weight: 700; }
+            .picker-input .caret {
+                display: inline-block;
+                width: 0.5em;
+                height: 1.1em;
+                background: var(--aj-orange);
+                animation: blink 1.2s steps(2) infinite;
+                vertical-align: -0.15em;
+            }
+            .picker-list { padding: 0.35rem 0; }
+            .picker-row {
+                display: flex;
+                gap: 0.6rem;
+                padding: 0.22rem 0.9rem;
+            }
+            .picker-row.sel { background: var(--aj-bg-hi); }
+            .picker-row .pf { color: var(--aj-fg); }
+            .picker-row .pf .match { color: var(--aj-azure); font-weight: 700; }
+            .picker-row .pd { color: var(--aj-fg-muted); }
+            .picker-row.dim .pf,
+            .picker-row.dim .pd { color: var(--aj-border); }
+            .picker-note {
+                margin-top: 0.75rem;
+                font-size: 0.75rem;
+                color: var(--aj-fg-muted);
+            }
+            .picker-note .pf { color: var(--aj-fg); }
+            .picker-note .pd { color: var(--aj-fg-muted); }
+            .picker-note .dimd { color: var(--aj-border); }
 
             /* ---------- code sample ---------- */
             .code {
@@ -324,6 +392,24 @@
                 <div class="ansi" data-group="ansi"></div>
             </section>
 
+            <section>
+                <h2><span class="prompt">~/</span> <span class="cmd">find files</span></h2>
+                <div class="picker">
+                    <div class="picker-input"><span class="p">&#10095;</span> ini<span class="caret"></span></div>
+                    <div class="picker-list">
+                        <div class="picker-row sel"><span class="pf"><span class="match">ini</span>t.lua</span><span class="pd">editors/neovim/lua/astral/</span></div>
+                        <div class="picker-row"><span class="pf">palette.json</span><span class="pd">./</span></div>
+                        <div class="picker-row"><span class="pf">manifest.json</span><span class="pd">apps/firefox/astral-supernova/</span></div>
+                        <div class="picker-row"><span class="pf">theme.css</span><span class="pd">apps/obsidian/</span></div>
+                        <div class="picker-row dim"><span class="pf">.gitignore</span><span class="pd">./ (hidden)</span></div>
+                    </div>
+                </div>
+                <p class="picker-note">
+                    filename <span class="pf">fg</span> · directory <span class="pd">fg&#8209;muted</span> · hidden/ignored <span class="dimd">border</span>.
+                    The dimmed path stays legible now that <span class="pd">fg&#8209;muted</span> clears AA against the background.
+                </p>
+            </section>
+
             <footer>
                 <p>
                     astral journey · full token spec in
@@ -339,7 +425,7 @@
                 "astral-blackhole": {
                     neutrals: {
                         bg: "#0d0f1e", bg_soft: "#14172a", bg_hi: "#1c2038",
-                        border: "#2a2f4d", fg: "#ebe8d2", fg_alt: "#fdfbe4", fg_muted: "#767ba6",
+                        border: "#2a2f4d", fg: "#ebe8d2", fg_alt: "#fdfbe4", fg_muted: "#8b90bd",
                     },
                     accents: {
                         yellow: "#ffff99", amber: "#ffcc66", orange: "#ff9933", peach: "#ffcc99",
@@ -354,32 +440,71 @@
                 "astral-supernova": {
                     neutrals: {
                         bg: "#fdf9ec", bg_soft: "#f6f0dc", bg_hi: "#efe8cf",
-                        border: "#e2d8ba", fg: "#292140", fg_alt: "#1c1730", fg_muted: "#6b6a8a",
+                        border: "#e2d8ba", fg: "#292140", fg_alt: "#1c1730", fg_muted: "#5d5c78",
                     },
                     accents: {
-                        yellow: "#b07d00", amber: "#c9820f", orange: "#d9660a", peach: "#c77a4a",
-                        coral: "#d83a4a", lilac: "#a34fa8", violet: "#7b4fc0", plum: "#664466",
-                        haze: "#2f6fd0", azure: "#2f5fc7", teal: "#006699", aurora: "#1f8a5c",
+                        yellow: "#946900", amber: "#9d650c", orange: "#b65608", peach: "#a65f33",
+                        coral: "#d62e3f", lilac: "#a34fa8", violet: "#7b4fc0", plum: "#664466",
+                        haze: "#2f6fd0", azure: "#2f5fc7", teal: "#006699", aurora: "#1d8156",
                     },
                     ansi: [
-                        "#292140", "#d83a4a", "#1f8a5c", "#b07d00", "#2f5fc7", "#a34fa8", "#006699", "#f6f0dc",
-                        "#6b6a8a", "#c22f3e", "#187a4f", "#9c6e00", "#2551ad", "#8f4494", "#005982", "#1c1730",
+                        "#292140", "#d62e3f", "#1d8156", "#946900", "#2f5fc7", "#a34fa8", "#006699", "#f6f0dc",
+                        "#5d5c78", "#c22f3e", "#187a4f", "#9c6e00", "#2551ad", "#8f4494", "#005982", "#1c1730",
                     ],
                 },
             };
 
+            // WCAG relative luminance + contrast ratio
+            const SURFACE = new Set(["bg", "bg_soft", "bg_hi", "border", "plum"]);
+            function chan(c) {
+                c /= 255;
+                return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+            }
+            function lum(hex) {
+                const h = hex.replace("#", "");
+                const r = parseInt(h.slice(0, 2), 16),
+                    g = parseInt(h.slice(2, 4), 16),
+                    b = parseInt(h.slice(4, 6), 16);
+                return 0.2126 * chan(r) + 0.7152 * chan(g) + 0.0722 * chan(b);
+            }
+            function contrast(a, b) {
+                const la = lum(a),
+                    lb = lum(b),
+                    hi = Math.max(la, lb),
+                    lo = Math.min(la, lb);
+                return (hi + 0.05) / (lo + 0.05);
+            }
+            function rate(r) {
+                if (r >= 7) return ["aaa", "AAA"];
+                if (r >= 4.5) return ["aa", "AA"];
+                if (r >= 3) return ["large", "AA·lg"];
+                return ["low", "low"];
+            }
+
             function renderSwatches(group) {
                 const theme = document.documentElement.dataset.theme || "astral-blackhole";
                 const data = PALETTE[theme][group];
+                const bg = PALETTE[theme].neutrals.bg;
                 const el = document.querySelector(`.swatches[data-group="${group}"]`);
                 el.innerHTML = Object.entries(data)
-                    .map(
-                        ([name, hex]) => `
+                    .map(([name, hex]) => {
+                        let meta;
+                        if (SURFACE.has(name)) {
+                            meta = `<span class="ratio">surface</span><span class="badge fill">fill</span>`;
+                        } else {
+                            const r = contrast(hex, bg);
+                            const [cls, label] = rate(r);
+                            meta = `<span class="ratio">${r.toFixed(2)}:1</span><span class="badge ${cls}">${label}</span>`;
+                        }
+                        return `
                         <div class="swatch">
                             <div class="chip" style="background:${hex}"></div>
-                            <div class="info"><span class="name">${name}</span><span class="hex">${hex}</span></div>
-                        </div>`,
-                    )
+                            <div class="info">
+                                <div class="row"><span class="name">${name}</span><span class="hex">${hex}</span></div>
+                                <div class="row">${meta}</div>
+                            </div>
+                        </div>`;
+                    })
                     .join("");
             }
 

@@ -11,14 +11,14 @@ Astral Journey theme for [Dank Material Shell](https://github.com/AvengeMedia/dm
 
 8 accent colors, each selectable per-flavor:
 
-- **Amber** (default) — `#ffcc66` / `#c9820f`
-- **Orange** — `#ff9933` / `#d9660a`
-- **Coral** — `#ff6e6e` / `#d83a4a`
+- **Amber** (default) — `#ffcc66` / `#9d650c`
+- **Orange** — `#ff9933` / `#b65608`
+- **Coral** — `#ff6e6e` / `#d62e3f`
 - **Lilac** — `#cc99cc` / `#a34fa8`
 - **Violet** — `#b78ae0` / `#7b4fc0`
 - **Azure** — `#6a97ea` / `#2f5fc7`
 - **Teal** — `#38a8d0` / `#006699`
-- **Aurora** — `#7ed4a3` / `#1f8a5c`
+- **Aurora** — `#7ed4a3` / `#1d8156`
 
 This gives 2 flavors × 8 accents = 16 combinations, each with dark/light mode support.
 

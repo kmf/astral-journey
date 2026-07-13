@@ -30,7 +30,7 @@ background = "#ffcc66"
 foreground = "#0d0f1e"
 
 [colors.hints.end]
-background = "#767ba6"
+background = "#8b90bd"
 foreground = "#0d0f1e"
 
 [colors.footer_bar]

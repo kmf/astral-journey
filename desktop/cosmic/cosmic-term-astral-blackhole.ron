@@ -13,7 +13,7 @@
     background: Some("#0d0f1e"),
     cursor: Some("#ff9933"),
     bright_foreground: Some("#fdfbe4"),
-    dim_foreground: Some("#767ba6"),
+    dim_foreground: Some("#8b90bd"),
 
     black: Some("#1c2038"),
     red: Some("#ff6e6e"),
@@ -40,5 +40,5 @@
     dim_blue: Some("#4e6ead"),
     dim_magenta: Some("#937098"),
     dim_cyan: Some("#2b7a9b"),
-    dim_white: Some("#767ba6"),
+    dim_white: Some("#8b90bd"),
 )

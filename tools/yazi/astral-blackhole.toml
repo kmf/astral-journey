@@ -18,7 +18,7 @@ marker_copied   = { fg = "#ffcc66", bg = "#ffcc66" }
 marker_cut      = { fg = "#ff6e6e", bg = "#ff6e6e" }
 
 tab_active   = { fg = "#0d0f1e", bg = "#ffcc66", bold = true }
-tab_inactive = { fg = "#767ba6", bg = "#14172a" }
+tab_inactive = { fg = "#8b90bd", bg = "#14172a" }
 
 border_symbol = "│"
 border_style  = { fg = "#2a2f4d" }
@@ -44,7 +44,7 @@ permissions_t = { fg = "#7ed4a3" }
 permissions_r = { fg = "#ffcc66" }
 permissions_w = { fg = "#ff6e6e" }
 permissions_x = { fg = "#38a8d0" }
-permissions_s = { fg = "#767ba6" }
+permissions_s = { fg = "#8b90bd" }
 
 [input]
 border   = { fg = "#ffcc66" }
@@ -65,7 +65,7 @@ hovered = { underline = true }
 [which]
 mask            = { bg = "#14172a" }
 cand            = { fg = "#38a8d0" }
-rest            = { fg = "#767ba6" }
+rest            = { fg = "#8b90bd" }
 desc            = { fg = "#cc99cc" }
 separator       = "  "
 separator_style = { fg = "#2a2f4d" }
@@ -73,9 +73,9 @@ separator_style = { fg = "#2a2f4d" }
 [help]
 on      = { fg = "#ffcc66" }
 run     = { fg = "#cc99cc" }
-desc    = { fg = "#767ba6" }
+desc    = { fg = "#8b90bd" }
 hovered = { bg = "#1c2038", bold = true }
-footer  = { fg = "#767ba6", bg = "#14172a" }
+footer  = { fg = "#8b90bd", bg = "#14172a" }
 
 [filetype]
 rules = [

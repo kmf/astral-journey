@@ -3,20 +3,20 @@
 
 background = fdf9ec
 foreground = 292140
-cursor-color = d9660a
+cursor-color = b65608
 cursor-text = fdf9ec
 selection-background = 664466
 selection-foreground = 1c1730
 
 palette = 0=#292140
-palette = 1=#d83a4a
-palette = 2=#1f8a5c
-palette = 3=#b07d00
+palette = 1=#d62e3f
+palette = 2=#1d8156
+palette = 3=#946900
 palette = 4=#2f5fc7
 palette = 5=#a34fa8
 palette = 6=#006699
 palette = 7=#f6f0dc
-palette = 8=#6b6a8a
+palette = 8=#5d5c78
 palette = 9=#c22f3e
 palette = 10=#187a4f
 palette = 11=#9c6e00

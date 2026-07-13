@@ -19,7 +19,7 @@
       (border   "#2a2f4d")
       (fg       "#ebe8d2")
       (fg-alt   "#fdfbe4")
-      (fg-muted "#767ba6")
+      (fg-muted "#8b90bd")
       (yellow   "#ffcc66")
       (orange   "#ff9933")
       (red      "#ff6e6e")

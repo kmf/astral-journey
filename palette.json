@@ -14,7 +14,7 @@
         "border":   "#2a2f4d",
         "fg":       "#ebe8d2",
         "fg_alt":   "#fdfbe4",
-        "fg_muted": "#767ba6"
+        "fg_muted": "#8b90bd"
       },
       "neutral_ramp": [
         "#0d0f1e",
@@ -22,7 +22,7 @@
         "#1c2038",
         "#2a2f4d",
         "#3f4670",
-        "#767ba6",
+        "#8b90bd",
         "#9a9ec2",
         "#c4c2d8",
         "#ebe8d2",
@@ -77,13 +77,13 @@
         "border":   "#e2d8ba",
         "fg":       "#292140",
         "fg_alt":   "#1c1730",
-        "fg_muted": "#6b6a8a"
+        "fg_muted": "#5d5c78"
       },
       "neutral_ramp": [
         "#292140",
         "#3a3358",
         "#524d70",
-        "#6b6a8a",
+        "#5d5c78",
         "#9a97b0",
         "#e2d8ba",
         "#efe8cf",
@@ -93,29 +93,29 @@
         "#fffef8"
       ],
       "accents": {
-        "yellow": "#b07d00",
-        "amber":  "#c9820f",
-        "orange": "#d9660a",
-        "peach":  "#c77a4a",
-        "coral":  "#d83a4a",
+        "yellow": "#946900",
+        "amber":  "#9d650c",
+        "orange": "#b65608",
+        "peach":  "#a65f33",
+        "coral":  "#d62e3f",
         "lilac":  "#a34fa8",
         "violet": "#7b4fc0",
         "plum":   "#664466",
         "haze":   "#2f6fd0",
         "azure":  "#2f5fc7",
         "teal":   "#006699",
-        "aurora": "#1f8a5c"
+        "aurora": "#1d8156"
       },
       "ansi": {
         "black":          "#292140",
-        "red":            "#d83a4a",
-        "green":          "#1f8a5c",
-        "yellow":         "#b07d00",
+        "red":            "#d62e3f",
+        "green":          "#1d8156",
+        "yellow":         "#946900",
         "blue":           "#2f5fc7",
         "magenta":        "#a34fa8",
         "cyan":           "#006699",
         "white":          "#f6f0dc",
-        "bright_black":   "#6b6a8a",
+        "bright_black":   "#5d5c78",
         "bright_red":     "#c22f3e",
         "bright_green":   "#187a4f",
         "bright_yellow":  "#9c6e00",
@@ -125,7 +125,7 @@
         "bright_white":   "#1c1730"
       },
       "ui": {
-        "cursor":       "#d9660a",
+        "cursor":       "#b65608",
         "cursor_text":  "#fdf9ec",
         "selection_bg": "#66446630",
         "selection_fg": "#1c1730"

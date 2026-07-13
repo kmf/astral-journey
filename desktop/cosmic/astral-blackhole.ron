@@ -34,7 +34,7 @@
         accent_pink:   (red: 0.800, green: 0.600, blue: 0.800, alpha: 1.0),  // #cc99cc
         accent_purple: (red: 0.718, green: 0.541, blue: 0.878, alpha: 1.0),  // #b78ae0
         accent_red:    (red: 1.000, green: 0.431, blue: 0.431, alpha: 1.0),  // #ff6e6e
-        accent_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0), // #767ba6
+        accent_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0), // #8b90bd
         accent_yellow: (red: 1.000, green: 0.800, blue: 0.400, alpha: 1.0),  // #ffcc66
 
         // ext slots — cosmic-specific bright accents
@@ -43,7 +43,7 @@
         ext_pink:      (red: 0.851, green: 0.663, blue: 0.878, alpha: 1.0),  // #d9a9e0  bright_magenta
         ext_purple:    (red: 0.718, green: 0.541, blue: 0.878, alpha: 1.0),  // #b78ae0  bright_violet
         ext_indigo:    (red: 0.600, green: 0.800, blue: 1.000, alpha: 1.0),  // #99ccff
-        ext_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #767ba6
+        ext_warm_grey: (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #8b90bd
         ext_yellow:    (red: 1.000, green: 1.000, blue: 0.600, alpha: 1.0),  // #ffff99
 
         // neutrals — gray and neutral ramp
@@ -55,7 +55,7 @@
         neutral_2:     (red: 0.110, green: 0.125, blue: 0.220, alpha: 1.0),  // #1c2038
         neutral_3:     (red: 0.165, green: 0.184, blue: 0.302, alpha: 1.0),  // #2a2f4d
         neutral_4:     (red: 0.247, green: 0.275, blue: 0.439, alpha: 1.0),  // #3f4670
-        neutral_5:     (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #767ba6
+        neutral_5:     (red: 0.463, green: 0.482, blue: 0.651, alpha: 1.0),  // #8b90bd
         neutral_6:     (red: 0.604, green: 0.620, blue: 0.761, alpha: 1.0),  // #9a9ec2
         neutral_7:     (red: 0.769, green: 0.761, blue: 0.847, alpha: 1.0),  // #c4c2d8
         neutral_8:     (red: 0.922, green: 0.910, blue: 0.824, alpha: 1.0),  // #ebe8d2  fg
