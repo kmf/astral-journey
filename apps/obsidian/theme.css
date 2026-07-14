@@ -23,8 +23,9 @@
   --background-modifier-border: #2a2f4d;
   --background-modifier-border-hover:  #3f4670;
   --background-modifier-border-focus:  #ffcc66;
-  --background-modifier-hover:  #1c2038;
-  --background-modifier-active-hover: #2a2f4d;
+  /* translucent so the highlight contrasts on any surface (menus, nav, tabs) */
+  --background-modifier-hover:  rgba(235, 232, 210, 0.07);
+  --background-modifier-active-hover: rgba(235, 232, 210, 0.13);
 
   /* Text */
   --text-normal:    #ebe8d2;
@@ -114,8 +115,9 @@
   --background-modifier-border: #e2d8ba;
   --background-modifier-border-hover:  #9a97b0;
   --background-modifier-border-focus:  #9d650c;
-  --background-modifier-hover:  #efe8cf;
-  --background-modifier-active-hover: #e2d8ba;
+  /* translucent so the highlight contrasts on any surface (menus, nav, tabs) */
+  --background-modifier-hover:  rgba(41, 33, 64, 0.06);
+  --background-modifier-active-hover: rgba(41, 33, 64, 0.11);
 
   --text-normal:    #292140;
   --text-muted:     #5d5c78;
