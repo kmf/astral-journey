@@ -82,7 +82,7 @@ your tool expects. See each directory's README for tool-specific steps.
 
 ```
 terminals/   alacritty · ghostty · kitty · wezterm · foot · iterm2 · windows-terminal
-editors/     vscode · zed · neovim · emacs · intellij
+editors/     vscode · zed · neovim · emacs · intellij · fresh
 tools/       bat · btop · fzf · k9s · lazygit · starship · tmux · yazi
 apps/        claude-code · obsidian · opencode · chrome · firefox
 desktop/     cosmic · dms

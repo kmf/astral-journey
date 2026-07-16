@@ -141,6 +141,16 @@ cp editors/emacs/astral-*-theme.el ~/.emacs.d/themes/
 **Settings → Editor → Color Scheme → gear icon → Import Scheme**, then choose
 `editors/intellij/astral-blackhole.icls`.
 
+### fresh
+
+```bash
+mkdir -p ~/.config/fresh/themes
+cp editors/fresh/astral-blackhole.json ~/.config/fresh/themes/
+cp editors/fresh/astral-supernova.json ~/.config/fresh/themes/
+```
+
+Select `astral-blackhole` or `astral-supernova` by name in fresh's settings.
+
 ---
 
 ## Tools
